@@ -4,7 +4,7 @@ y las salidas impares(a1:a7) se activen si B0=0*/
 void setup() {
     
   RCC->APB2ENR|=RCC_APB2ENR_IOPAEN|RCC_APB2ENR_IOPBEN;
-
+//COMENTARIO
 
   GPIOA -> CRL = 0x11111111; // output push-pull
   
